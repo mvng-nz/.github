@@ -8,6 +8,7 @@ Boutique IT consulting focused on **enterprise architecture, cloud strategy, AI 
 - **Cloud strategy** — cloud migration, platform engineering, and modern infrastructure
 - **AI strategy** — AI readiness, intelligent automation, and data-driven decision making
 - **Integrations** — knowledge graphs, system integration, and data platforms
+- **Digital transformation** — end-to-end change, operating model modernisation, and technology-enabled business transformation
 
 ### Work with us
 
