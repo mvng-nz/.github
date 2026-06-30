@@ -1,0 +1,35 @@
+name: Change request
+description: Request a new feature, enhancement, or scope change
+title: '[Change]: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / context
+      description: What's the need? What outcome are we trying to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Urgent
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / contract impact
+      description: Does this affect the agreed scope, timeline, or budget? Flag it here.
+    validations:
+      required: false

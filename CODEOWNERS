@@ -1,0 +1,15 @@
+# Default owners for everything in this repository.
+# Update this per repository with the actual team or maintainers responsible for review.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global fallback
+* @mvng-nz/engineering
+
+# Organisation governance files
+/profile/ @mvng-nz/engineering
+SECURITY.md @mvng-nz/engineering
+CONTRIBUTING.md @mvng-nz/engineering
+CODE_OF_CONDUCT.md @mvng-nz/engineering
+SUPPORT.md @mvng-nz/engineering
+/.github/ @mvng-nz/engineering
+

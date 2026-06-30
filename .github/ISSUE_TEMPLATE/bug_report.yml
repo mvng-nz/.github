@@ -1,0 +1,37 @@
+name: Bug report
+description: Report something that isn't working as expected
+title: '[Bug]: '
+# No default `labels:` here on purpose — an org-default template only applies a
+# label if that label also exists in the target repo, otherwise it silently fails.
+# Add labels per-repo, or create matching labels in each repo first.
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and the impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Do '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: 'e.g. prod / staging, version or commit, browser/OS'
+    validations:
+      required: false
