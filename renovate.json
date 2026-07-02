@@ -1,0 +1,3 @@
+{
+  "extends": ["github>mvng-nz/renovate-config"]
+}
